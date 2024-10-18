@@ -49,8 +49,8 @@ class _RegistrasiPageState extends State<RegistrasiPage> {
       decoration: const BoxDecoration(
         gradient: LinearGradient(
           colors: [
-            Color.fromARGB(255, 240, 132, 231),
-            Color.fromARGB(255, 233, 203, 241)
+            Color.fromARGB(255, 189, 142, 235),
+            Color.fromARGB(255, 136, 157, 244)
           ],
           begin: Alignment.topLeft,
           end: Alignment.bottomRight,
@@ -76,6 +76,7 @@ class _RegistrasiPageState extends State<RegistrasiPage> {
             fontSize: 32,
             fontWeight: FontWeight.bold,
             color: Colors.white,
+            fontFamily: 'Courier New', // Set the font to Courier New
           ),
         ),
         const SizedBox(
@@ -122,6 +123,7 @@ class _RegistrasiPageState extends State<RegistrasiPage> {
         }
         return null;
       },
+      style: const TextStyle(fontFamily: 'Courier New'),
     );
   }
 
@@ -149,6 +151,7 @@ class _RegistrasiPageState extends State<RegistrasiPage> {
         }
         return null;
       },
+      style: const TextStyle(fontFamily: 'Courier New'),
     );
   }
 
@@ -170,6 +173,7 @@ class _RegistrasiPageState extends State<RegistrasiPage> {
         }
         return null;
       },
+      style: const TextStyle(fontFamily: 'Courier New'),
     );
   }
 
@@ -190,6 +194,7 @@ class _RegistrasiPageState extends State<RegistrasiPage> {
         }
         return null;
       },
+      style: const TextStyle(fontFamily: 'Courier New'),
     );
   }
 
@@ -204,7 +209,7 @@ class _RegistrasiPageState extends State<RegistrasiPage> {
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(30),
               ),
-              backgroundColor: const Color.fromARGB(255, 220, 109, 233),
+              backgroundColor: const Color.fromARGB(255, 118, 106, 196),
             ),
             child: const Text(
               "Registrasi",

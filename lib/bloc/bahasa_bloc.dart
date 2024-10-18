@@ -27,9 +27,7 @@ class BahasaBloc {
 
   // Menambahkan bahasa baru
   static Future<bool> addBahasa({required Bahasa bahasa}) async {
-    String apiUrl =
-        ApiUrl.createBahasa; // sesuaikan jika ada endpoint khusus untuk bahasa
-
+    String apiUrl = ApiUrl.createBahasa;
     var body = {
       "original_language": bahasa.originalLanguage,
       "translated_language": bahasa.translatedLanguage,
@@ -76,8 +74,7 @@ class BahasaBloc {
 
   // Menghapus bahasa
   static Future<bool> deleteBahasa({required int id}) async {
-    String apiUrl = ApiUrl.deleteBahasa(
-        id); // sesuaikan jika ada endpoint khusus untuk bahasa
+    String apiUrl = ApiUrl.deleteBahasa(id);
     var response = await Api().delete(apiUrl);
 
     if (response.statusCode == 200) {

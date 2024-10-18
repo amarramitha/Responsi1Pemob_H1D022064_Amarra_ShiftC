@@ -50,8 +50,8 @@ class _LoginPageState extends State<LoginPage> {
       decoration: const BoxDecoration(
         gradient: LinearGradient(
           colors: [
-            Color.fromARGB(255, 240, 132, 231),
-            Color.fromARGB(255, 233, 203, 241)
+            Color.fromARGB(255, 189, 142, 235),
+            Color.fromARGB(255, 136, 157, 244)
           ],
           begin: Alignment.topLeft,
           end: Alignment.bottomRight,
@@ -69,6 +69,7 @@ class _LoginPageState extends State<LoginPage> {
             fontSize: 32,
             fontWeight: FontWeight.bold,
             color: Colors.white,
+            fontFamily: 'Courier New',
           ),
         ),
       ],
@@ -142,7 +143,7 @@ class _LoginPageState extends State<LoginPage> {
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(30),
               ),
-              backgroundColor: const Color.fromARGB(255, 220, 109, 233),
+              backgroundColor: const Color.fromARGB(255, 118, 106, 196),
             ),
             child: const Text(
               "Login",
@@ -199,7 +200,10 @@ class _LoginPageState extends State<LoginPage> {
       child: InkWell(
         child: const Text(
           "Registrasi",
-          style: TextStyle(color: Color.fromARGB(220, 255, 255, 255)),
+          style: TextStyle(
+            color: Color.fromARGB(220, 255, 255, 255),
+            fontFamily: 'Courier New', // Set font family to Courier New
+          ),
         ),
         onTap: () {
           Navigator.push(

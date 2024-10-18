@@ -1,5 +1,5 @@
 class ApiUrl {
-  static const String baseUrl = 'http://103.196.155.42/';
+  static const String baseUrl = 'http://responsi.webwizards.my.id/';
   static const String registrasi = baseUrl + 'api/registrasi';
   static const String login = baseUrl + 'api/login';
   static const String listBahasa = baseUrl + 'api/buku/bahasa';

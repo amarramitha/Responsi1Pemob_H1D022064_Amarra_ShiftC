@@ -50,8 +50,8 @@ class _BahasaFormState extends State<BahasaForm> {
         title: Text(
           judul,
           style: const TextStyle(
-            color: Colors.white, // Set text color to white
-            fontFamily: 'Courier New', // Use Courier New font
+            color: Colors.white,
+            fontFamily: 'Courier New',
           ),
         ),
         backgroundColor: const Color.fromARGB(255, 126, 113, 205),
